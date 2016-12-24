@@ -90,3 +90,8 @@ void Valve::set_currentMillis(int new_currentMillis)
 {
     currentMillis = new_currentMillis;
 }
+
+Valve::~Valve()
+{
+  
+}

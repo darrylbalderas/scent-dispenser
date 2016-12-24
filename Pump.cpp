@@ -61,3 +61,8 @@ void Pump::set_currentMillis(int new_currentMillis)
     currentMillis = new_currentMillis;
 }
 
+Pump::~Pump()
+{
+    
+}
+

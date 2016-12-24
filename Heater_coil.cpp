@@ -61,5 +61,9 @@ void Heater_coil::set_currentMillis(int new_currentMillis)
     currentMillis = new_currentMillis;
 }
 
+Heater_coil::~Heater_coil()
+{
+}
+
 
 

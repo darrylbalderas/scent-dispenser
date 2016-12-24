@@ -27,6 +27,7 @@ class Heater_coil
     void set_currentMillis(int new_currentMillis);
 
     long get_OnTime();
+    ~Heater_coil();
 
 };
 #endif

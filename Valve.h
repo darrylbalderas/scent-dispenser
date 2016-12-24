@@ -37,5 +37,6 @@ class Valve
 
     unsigned long get_currentMillis();
     void set_currentMillis(int new_currentMillis);
+    ~Valve();
 };
 #endif
